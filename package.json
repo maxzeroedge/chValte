@@ -1,0 +1,25 @@
+{
+  "name": "chvalte",
+  "version": "0.0.1",
+  "description": "Chat App written in Svelte and GunJS",
+  "main": "src/ui/index.js",
+  "author": "Palash",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "sass": "^1.39.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "svelte": "^3.42.4",
+    "svelte-loader": "^3.1.2",
+    "svelte-preprocess": "^4.9.0",
+    "svelte-preprocess-sass": "^2.0.1",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
+  },
+  "scripts": {
+    "start": "webpack serve --mode=development"
+  }
+}
